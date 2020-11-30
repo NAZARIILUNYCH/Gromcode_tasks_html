@@ -1,56 +1,40 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 
-.container {
-  margin: 32px;
-}
-
-
-.rect {
-  margin-bottom: 16px;
-
+.square {
   width: 100px;
   height: 100px;
 
-  text-align: center;
-  line-height: 100px;
-  opacity: 0.5;
+  animation: move 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  position: absolute;
 
   background: coral;
 }
 
 
-.rect:hover {
-  width: 100%;
-
-  transition-property: width;
-  transition-duration: 2s;
-  opacity: 1;
-}
-
-
-.linear {
-  transition-timing-function: linear;
-}
-
-
-.ease {
-  transition-timing-function: ease;
-}
-
-
-.ease-in {
-  transition-timing-function: ease-in;
-}
-
-
-.ease-out {
-  transition-timing-function: ease-out;
-}
-
-
-.ease-in-out {
-  transition-timing-function: ease-in-out;
+@keyframes move {
+  0% {
+    top: 0;
+    left: 0;
+    background: coral;
+  } 25% {
+    top: 0;
+    left: 300px;
+    background: cornflowerblue;
+  } 50% {
+    top: 300px;
+    left: 300px;
+    background: aqua;
+  } 75% {
+    top: 300px;
+    left: 0;
+    background: yellowgreen;
+  } 100% {
+    top: 0;
+    left: 0;
+  }
 }
