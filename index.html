@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>SVG</title>
+    <title>Transition</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -13,15 +13,12 @@
   </head>
 
   <body>
-    <div class="row">
-      <div class="column">
-        <img class="small-bird" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson18/task1/image.png" alt="PNG small bird" />
-        <img class="large-bird" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson18/task1/image.png" alt="PNG large bird" />
-      </div>
-      <div class="column">
-        <img class="small-bird" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson18/task1/image.svg" alt="SVG small bird" />
-        <img class="large-bird" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson18/task1/image.svg" alt="SVG large bird" />
-      </div>
+    <div class="container">
+      <div class="rect linear">linear</div>
+      <div class="rect ease">ease</div>
+      <div class="rect ease-in">ease-in</div>
+      <div class="rect ease-out">ease-out</div>
+      <div class="rect ease-in-out">ease-in-out</div>
     </div>
   </body>
 </html>
