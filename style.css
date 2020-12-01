@@ -3,34 +3,35 @@
 }
 
 
-.container {
-  display: flex;
-  height: 100vh;
-}
+.block {
+  width: 250px;
+  height: 100px;
 
-
-.spinner {
+  display: block;
   margin: auto;
+
   position: relative;
-  animation: blinking 2s linear infinite;
-}
 
+  border-radius: 10px;
 
-.spinner-text {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
+  line-height: 100px;
+
+  animation: move 2s ease forwards;
+
+  color: white;
+  background: coral;
 }
 
 
-.rect {
-  height: 4px;
-  width: 10px;
-
-  border-radius: 2px;
-  position: absolute;
-
-  animation: moving 2s infinite alternate;
-
-  background: black;
+@keyframes move {
+  from {
+    top: -100px;
+  } to {
+    top: calc(50vh - 50px);
+  }
 }
