@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.block {
+  width: 250px;
+  height: 100px;
+
+  display: block;
+  margin: auto;
+
+  position: relative;
+
+  border-radius: 10px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 100px;
+
+  animation: move 2s ease forwards;
+
+  color: white;
+  background: coral;
+}
+
+
+@keyframes move {
+  from {
+    top: -100px;
+  } to {
+    top: calc(50vh - 50px);
+  }
+}
