@@ -1,36 +1,56 @@
-* {
+*{
   box-sizing: border-box;
 }
 
 
 .container {
-  display: flex;
-  height: 100vh;
-}
-
-
-.spinner {
-  margin: auto;
-  position: relative;
-  animation: blinking 2s linear infinite;
-}
-
-
-.spinner-text {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 16px;
-  text-transform: uppercase;
+  margin: 32px;
 }
 
 
 .rect {
-  height: 4px;
-  width: 10px;
+  margin-bottom: 16px;
 
-  border-radius: 2px;
-  position: absolute;
+  width: 100px;
+  height: 100px;
 
-  animation: moving 2s infinite alternate;
+  text-align: center;
+  line-height: 100px;
+  opacity: 0.5;
 
-  background: black;
+  background: coral;
+}
+
+
+.rect:hover {
+  width: 100%;
+
+  transition-property: width;
+  transition-duration: 2s;
+  opacity: 1;
+}
+
+
+.linear {
+  transition-timing-function: linear;
+}
+
+
+.ease {
+  transition-timing-function: ease;
+}
+
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+
+
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
 }
