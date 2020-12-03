@@ -8,6 +8,11 @@
   flex-direction: column;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
 .navigation {
   background: #ff7f50;
 }
@@ -47,8 +52,6 @@ span {
 
 @media screen and (min-width: 900px) {
   .content {
-    display: flex;
-    flex: 2;
     flex-direction: row;
   }
 }
