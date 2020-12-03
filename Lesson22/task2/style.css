@@ -10,6 +10,7 @@
 
 .navigation {
   background: #ff7f50;
+  flex-grow: 1;
 }
 
 .products-list {
@@ -18,6 +19,7 @@
 
 .news {
   background: #0ff;
+  width: 1em;
 }
 
 .navigation,
@@ -25,7 +27,7 @@
 .news {
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
+  flex-grow: 1; 
 }
 
 span {
@@ -40,9 +42,13 @@ span {
 
 @media screen and (min-width: 600px) {
   .products {
-    display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     flex-grow: 2;
+  }
+  .navigation,
+  .products-list,
+  .news {
+    width: 1em;
   }
 }
 
