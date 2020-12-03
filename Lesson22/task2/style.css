@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -48,10 +44,6 @@ span {
   .products {
     flex-direction: row;
     flex-grow: 2;
-  }
-
-  .navigation, .products-list {
-    width: 1em;
   }
 }
 
