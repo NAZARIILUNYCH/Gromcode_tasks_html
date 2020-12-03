@@ -40,6 +40,8 @@ span {
 
 @media screen and (min-width: 600px) {
   .products {
+    display: flex;
+    /* flex-direction: row; */
     flex-grow: 2;
   }
 }
