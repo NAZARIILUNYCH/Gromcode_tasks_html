@@ -49,6 +49,6 @@ span {
   .content {
     display: flex;
     flex: 2;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
