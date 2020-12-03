@@ -47,7 +47,9 @@ body {
 }
 
 .nav-list-link {
-  padding: 0.5em;
+  /* padding: 0.5em; */
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   display:  block;
 
   color: white;
