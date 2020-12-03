@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -10,24 +14,24 @@
 }
 
 .navigation {
+  display: flex;
+  flex: 1;
   background: #ff7f50;
+  min-height: 200px;
 }
 
 .products-list {
-  background: #006400;
-}
-
-.news {
-  background: #0ff;
-}
-
-.navigation,
-.products-list, 
-.news {
-  min-height: 200px;
   display: flex;
-  flex-grow: 1;
-  flex-shrink: 0;
+  flex: 1;
+  background: #006400;
+  min-height: 200px;
+}
+
+.news {
+  display: flex;
+  flex: 1;
+  background: #0ff;
+  min-height: 200px;
 }
 
 span {
