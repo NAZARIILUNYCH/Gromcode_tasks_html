@@ -43,8 +43,6 @@ body {
 
 .nav-list-item {
   list-style: none;
-  align-items: center;
-  /* height: 2em; */
   margin-bottom: 0.5em;
 }
 
@@ -52,15 +50,11 @@ body {
   padding: 0.5em;
   display:  block;
 
-  line-height: 1.75em;
   color: white;
   background: #808080;
   text-decoration: none;
 
   overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -92,7 +86,6 @@ body {
 
 .footer {
   text-align: center;
-  flex: 0 0 auto;
   padding: 0.5em;
   background: #e5e5e5;
 }
