@@ -17,6 +17,7 @@ body {
 .header {
   text-align: center;
   color: white;
+  flex: 0 0 auto;
   background-image: linear-gradient(60deg, red, orange);
 }
 
@@ -35,10 +36,12 @@ body {
   width: 20%;
 }
 
-.nav-list-item {
+.nav-list {
   padding: 0;
+}
+
+.nav-list-item {
   list-style: none;
-  display: flex;
   align-items: center;
   height: 2em;
   margin-bottom: 0.5em;
@@ -48,7 +51,7 @@ body {
   padding: 0 0.5em 0 0.5em;
   display:  block;
 
-  /* line-height: 1.75em; */
+  line-height: 1.75em;
   color: white;
   background: #808080;
   text-decoration: none;
