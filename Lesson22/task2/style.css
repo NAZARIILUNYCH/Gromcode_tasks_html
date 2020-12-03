@@ -4,22 +4,26 @@
 
 .navigation {
   background: #ff7f50;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+  width: 1em;
 }
 
 .products-list {
   background: #006400;
+  min-height: 200px;
+  display: flex;
+  flex-grow: 1;
+  width: 1em;
 }
 
 .news {
   background: #0ff;
-}
-
-.navigation, 
-.products-list,
-.news {
-  display: flex;
   min-height: 200px;
+  display: flex;
   flex-grow: 1;
+  width: 1em;
 }
 
 span {
