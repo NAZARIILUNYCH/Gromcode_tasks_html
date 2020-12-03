@@ -38,7 +38,7 @@ body {
 
 .nav-list {
   padding: 0;
-  /* line-height: 2em; */
+  height: 2em;
 }
 
 .nav-list-item {
@@ -47,9 +47,7 @@ body {
 }
 
 .nav-list-link {
-  /* padding: 0.5em; */
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding: 0.5em;
   display:  block;
 
   color: white;
