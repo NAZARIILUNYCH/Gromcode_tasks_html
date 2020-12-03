@@ -42,20 +42,22 @@ body {
 
 .nav-list-item {
   list-style: none;
+  height: 2em;
+  background: #808080;
+  line-height: 2em;
+  color: #fff;
   margin-bottom: 0.5em;
 }
 
 .nav-list-link {
-  padding: 0.5em;
-  display:  block;
-
-  color: white;
-  background: #808080;
+  width: 100%;
+  display: inline-block;
+  padding: 0 0.5em;
   text-decoration: none;
-
+  color: #fff;
   overflow: hidden;
-  white-space: nowrap;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .section {
