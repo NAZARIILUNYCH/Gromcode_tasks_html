@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 
-.products {
+.content {
   display: flex;
-  flex: 2;
   flex-direction: column;
 }
 
-.content {
+.products {
   display: flex;
+  flex: 2;
   flex-direction: column;
 }
 
@@ -31,6 +31,7 @@
   min-height: 200px;
   display: flex;
   flex-grow: 1;
+  flex-shrink: 0;
 }
 
 span {
@@ -47,6 +48,10 @@ span {
   .products {
     flex-direction: row;
     flex-grow: 2;
+  }
+
+  .navigation, .products-list {
+    width: 1em;
   }
 }
 
