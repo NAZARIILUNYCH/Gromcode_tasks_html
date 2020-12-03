@@ -17,6 +17,12 @@
   flex-grow: 1;
 }
 
+.navigation, 
+.products-list,
+.news {
+  display: flex;
+}
+
 .block {
   height: 200px;
 }
@@ -24,7 +30,8 @@
 span {
   text-transform: lowercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 8px;
+  padding: 8px;
+  margin: auto;
   background: #faebd7;
   border-radius: 4px;
 }
