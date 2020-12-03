@@ -48,6 +48,6 @@ span {
 @media screen and (min-width: 900px) {
   .content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 }
