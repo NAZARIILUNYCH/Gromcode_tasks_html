@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   margin: 0;
+  padding-left: 3em;
   text-transform: uppercase;
   color: #fff;
   list-style: none;
@@ -60,4 +61,3 @@ html {
   font-size: 16px;
 }
 
-/*# sourceMappingURL=styles.css.map */
