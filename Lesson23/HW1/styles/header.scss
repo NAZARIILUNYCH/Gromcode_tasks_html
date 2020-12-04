@@ -23,6 +23,10 @@
 
     &:hover {
       background:  #9acd32;
+
+      & .submenu {
+        display: block;
+      }
     }
 
     &_active {
@@ -41,10 +45,6 @@
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   position: absolute;
   display: none;
-
-    &:hover {
-      display: block;
-    }
 
     &__item {
       cursor: pointer;
