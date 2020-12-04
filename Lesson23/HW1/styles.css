@@ -23,6 +23,9 @@
 .menu__item:hover {
   background: #9acd32;
 }
+.menu__item:hover .submenu {
+  display: block;
+}
 .menu__item_active {
   color: yellow;
 }
@@ -39,12 +42,9 @@
   position: absolute;
   display: none;
 }
-.submenu:hover {
-  display: block;
-}
 .submenu__item {
   cursor: pointer;
-  padding: 0 8px;
+  padding: 8px;
   min-width: 150px;
 }
 .submenu__item:hover {
