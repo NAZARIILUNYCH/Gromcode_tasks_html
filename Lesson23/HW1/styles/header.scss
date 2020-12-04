@@ -16,22 +16,18 @@
   padding: 0;
   position: relative;
   line-height: 3em;
-
-    &-text {
-      padding: 0 8px;
-    }
-
-    &:hover {
-      background:  #9acd32;
-
-      & .submenu {
-        display: block;
-      }
-    }
-
-    &_active {
-      color: yellow;
-    }
+}
+.menu__item-text {
+  padding: 0 4px;
+}
+.menu__item:hover {
+  background: #9acd32;
+}
+.menu__item:hover .submenu {
+  display: block;
+}
+.menu__item_active {
+  color: yellow;
 }
 
 .submenu {
@@ -45,14 +41,23 @@
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   position: absolute;
   display: none;
-
-    &__item {
-      cursor: pointer;
-      padding: 0 8px;
-      min-width: 150px;
-
-      &:hover {
-        color: black;
-      }
-    }
 }
+.submenu__item {
+  cursor: pointer;
+  padding: 0 8px;
+  min-width: 150px;
+}
+.submenu__item:hover {
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */
