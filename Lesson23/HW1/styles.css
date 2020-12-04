@@ -18,7 +18,7 @@
   line-height: 3em;
 }
 .menu__item-text {
-  padding: 0 4px;
+  padding: 0 8px;
 }
 .menu__item:hover {
   background: #9acd32;
